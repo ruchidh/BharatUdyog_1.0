@@ -2,11 +2,11 @@
 
 1. Fork the repo
    ```sh
-   git@github.com:ruchidh/BharatUdyog_1.0.git
+   https://github.com/ruchidh/BharatUdyog_1.0
    ```
 2. Take a pull before starting to contribute to make sure you are update with the latest code.
    ```sh
-   git pull origin staging
+   git pull origin dev
    ```
 3. Checkout to new new branch on you local machine
    ```sh
