@@ -1,46 +1,52 @@
-# Getting Started with Create React App
+## Contributing
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Fork the repo
+   ```sh
+   git@github.com:ruchidh/BharatUdyog_1.0.git
+   ```
+2. Take a pull before starting to contribute to make sure you are update with the latest code.
+   ```sh
+   git pull origin staging
+   ```
+3. Checkout to new new branch on you local machine
+   ```sh
+   git checkout -b <feature-name> Ex. user-registration-setup
+   ```
+4. Writing commit message for contribution done
+   ```sh
+   git commit -m "updated user profile pic upload to support new image formats"
+   ```
+5. Check if the build is successfully created
+   ```sh
+   npm run build
+   ```
+6. Creating PR
 
-## Available Scripts
+   ```sh
+   git push origin <local-branch-name>
+   ```
 
-In the project directory, you can run:
+7. Target branch to merge will be <b>beta</b>
 
-### `npm start`
+## Start Server
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1.  Installing dependencies
+    ```sh
+    npm i
+    ```
+2.  Start the application
+    ```sh
+    npm run start
+    ```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## CSS conventions we follow
 
-### `npm test`
+1. Use rem for <code>font-size</code> , <code>line-height</code> , em for <code>letter-spacing</code> and px for other properties
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ESlint configuration
 
-### `npm run build`
+1. We use ESlint along with Prettier in our project. Before you start to contribute on the project please make sure to configure the linters.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install `ESLint by Dirk Baeumer` and `Prettier by Prettier` from Extensions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Make sure that you have <label style="color: red;">Prettier</label> as your default document formatter.
